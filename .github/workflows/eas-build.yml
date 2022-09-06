@@ -1,9 +1,5 @@
 name: update
-on:
-  pull_request:
-    branches:
-      - development
-    types: [closed]
+on: push
 jobs:
   update-development:
     if: github.ref == 'refs/heads/development' && ${{ github.event.pull_request.merged }}
