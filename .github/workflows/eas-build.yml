@@ -23,6 +23,4 @@ jobs:
           title: Ignore This
           summary: <Message Summary>
           text: <Message Text>
-          theme_color: green
-          sections: '[{ "activityTitle": "hello world" }, { ... }]'
-          actions: '[{ "@type": "OpenUri", "name": "lorem ipsum", "targets": [{ "os": "default", "uri": "https://localhost" }] }, { ... }]'
+          theme_color: purple
